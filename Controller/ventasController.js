@@ -103,7 +103,7 @@ actualizar: function (req, res) {
 	
 
 		if(!err){
-			res.json('se actualzio');
+			res.json({message:'se actualzio'});
 		
 		}else{
 			console.log(err);
